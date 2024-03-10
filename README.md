@@ -1,15 +1,18 @@
 # ![image](https://github.com/karacann/Polymer-IBC-Setup/assets/128327604/ec1e208a-7390-4c64-8800-dd9b92ecccb7)
 
 
-> Gmolymer, Dev testneti mevcut ama bizde IBC Channel oluşturup katılalım bir nebze.
+> Creating IBC Channel for DEV testnet
 
-> Şahsen [benim](https://x.com/Ruesandora0/status/1732454399543234688?s=20) için öenmli bir proje - siz katılmak isterseniz diye paylaşıyorum.
+> Advisors include Al-Bassam and official partners include Celestia and Polygon
+Minimum requirements
+CPU	2
+RAM	2+ GB
+Storage	40 GB SSD
 
-> Günün sonunda rolümüzü alıyoruz. Donanım olarak herhangi bir sunucu yeterli.
+> After completing all the steps, do not forget to enter Discord and take part.
 
-> Sorulara hızlı cevap veremeyebilirim hala iyilesmedim ve Can Azerbaycan yolculuğum var 2 gün sonra.
 
-> Topluluk kanalları: [Sohbet Kanalımız](https://t.me/RuesChat) - [Duyurular ve Gelişmeler](https://t.me/RuesAnnouncement) - [Whatsapp](https://whatsapp.com/channel/0029VaBcj7V1dAw1H2KhMk34) - [Polymer Discord](https://discord.gg/nSUdZ7tg)
+> - [Polymer Discord](https://discord.gg/nSUdZ7tg)
 
 ```console
 sudo apt update -y && sudo apt upgrade -y
@@ -39,31 +42,31 @@ foundryup
 forge build
 ```
 
-<h1 align="center"> Cüzdan ve API key hazırlığı </h1>
+<h1 align="center"> Wallet and API key preparation </h1>
 
-> Poylmer için bir testnet metamask account oluşturun.
+> It would be beneficial to create a testnet metamask account for Polymer.
 
-> [Buradan](https://www.alchemy.com/faucets/optimism-sepolia) optimism - [Buradan](https://www.alchemy.com/faucets/base-sepolia) base faucet alın.
+> [From here](https://www.alchemy.com/faucets/optimism-sepolia) optimism - [From here](https://www.alchemy.com/faucets/base-sepolia) Get base and optimism faucet.
 
-> Alchemy hesabı [oluşturup](https://dashboard.alchemy.com/apps) apps kısmından Optimism Sepolia ve Base Sepolia App oluşturun.
+> Alchemy account [create and](https://dashboard.alchemy.com/apps) Create Optimism Sepolia and Base Sepolia App from the apps section.
 
 <img width="1222" alt="Ekran Resmi 2024-03-09 22 26 16" src="https://github.com/ruesandora/Polymer/assets/101149671/b0c470c3-89f8-400f-81ec-e143b40d7349">
 
 ```console
-# içersine girelim
+# Let's enter in
 nano .env
 ```
 
-> `PRIVATE_KEY_1` = Metamask private keyi
+> `PRIVATE_KEY_1` = Metamask private key
 
-> `OP_ALCHEMY_API_KEY` = Optimism API Key'i (RPC değil)
+> `OP_ALCHEMY_API_KEY` = Optimism API Key'i 
 
-> `BASE_ALCHEMY_API_KEY` = Base apı Key'i (RPC değil)
+> `BASE_ALCHEMY_API_KEY` = Base apı Key'i
 
-> Tırnakların içersine olacak, CTRL X Y enter ile kaydedip çıkıyoruzç
+> It will be inside the quotes, I save and exit with CTRL X enter.
 
 ```console
-# chanel oluşturma aşaması
+# chanel creation phase
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 source ~/.bashrc
 nvm install 18
@@ -73,11 +76,12 @@ just install
 just do-it
 ```
 
-> Akabinde aşağıdaki gibi loglar alacaksınız ve done diyecek.
+> You will get logs like below and it will say done.
 
-![image](https://github.com/ruesandora/Polymer/assets/101149671/4346fe3f-425c-4fe8-bdd8-7aeab5ae7eb8)
+![image](https://github.com/karacann/Polymer-IBC-Setup/assets/128327604/91b59fb8-69a1-405d-84af-47aa70946bcb)
 
-> Hata verirse, `npx hardhat clean` ve `just do-it` tekrar çalıştır.
 
-> Ekran görüntünü #proof kanalına discordda at ve devs rolünüzü alın.
+> If it gives an error, enter this command, `npx hardhat clean` and `just do-it` run again.
+
+> Post the screenshot to the #proof channel and request your role.
 
