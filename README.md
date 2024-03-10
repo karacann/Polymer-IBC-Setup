@@ -21,9 +21,9 @@ sudo apt-get install git -y
 sudo apt-get install -y ca-certificates curl gnupg
 sudo mkdir -p /etc/apt/keyrings
 
-# içersine giriyoruz
+# We enter in
 sudo nano /etc/apt/sources.list.d/nodesource.list
-# alttaki komutu içersine girdiğimiz dosyaya yazıyoruz. (# ile deb arasında boşluk bırakın)
+# We write the command below to the file we entered. (# Leave a space between deb and deb)
 #deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_ jammy main
 
 sudo apt update -y && sudo apt upgrade -y
@@ -31,7 +31,7 @@ sudo apt-get install -y nodejs
 ```
 
 ```console
-# polymer kurulum
+# You are very excited here right now Polymer installation
 git clone https://github.com/sarox0987/polymerlab-ibc-app-solidity.git
 cd polymerlab-ibc-app-solidity
 
