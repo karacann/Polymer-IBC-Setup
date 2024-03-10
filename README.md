@@ -4,7 +4,8 @@
 > Creating IBC Channel for DEV testnet
 
 > Advisors include Al-Bassam and official partners include Celestia and Polygon
-Minimum requirements
+
+> Minimum requirements
 CPU	2
 RAM	2+ GB
 Storage	40 GB SSD
