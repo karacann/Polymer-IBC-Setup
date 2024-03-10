@@ -1,4 +1,5 @@
-# Polymer
+# ![image](https://github.com/karacann/Polymer-IBC-Setup/assets/128327604/ec1e208a-7390-4c64-8800-dd9b92ecccb7)
+
 
 > Gmolymer, Dev testneti mevcut ama bizde IBC Channel oluşturup katılalım bir nebze.
 
