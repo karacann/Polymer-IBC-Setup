@@ -35,7 +35,7 @@ sudo apt-get install -y nodejs
 git clone https://github.com/sarox0987/polymerlab-ibc-app-solidity.git
 cd polymerlab-ibc-app-solidity
 
-# just  ve forge kurulumu
+# just and forge installation
 curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to /usr/local/bin
 curl -L https://foundry.paradigm.xyz | bash
 source /root/.bashrc
